@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DidacticGames</title>
+    <link rel="stylesheet" href="style-mobile.css">
+    <script src="https://kit.fontawesome.com/fc494527fa.js" crossorigin="anonymous"></script>
+
+</head>
+<body id="contatti">
+    <header>
+        <header>
+            <nav role="navigation">
+    
+             <div id="menu1">
+        
+                 <input type="checkbox" />
+        
+                 <span></span>
+                 <span></span>
+                 <span></span>
+        
+                 <ul id="menu">
+                    <a href="prova-mobile2.html"><li>Home</li></a>
+                     <a href="Chi-siamo-mobile.html"><li>Chi siamo</li></a>
+                     <a href="missione-mobile.html"><li>Missione</li></a>
+                     <a href="contatti-mobile.html"><li>Contatti</li></a>
+                    <a href="giochi-mobile.html"><li>Giochi</li></a>
+                 </ul>
+              </div>
+             </nav>
+             <div class="logobox">
+                <a href="prova-mobile2.html">
+                    <img src="assets/logo_cut.png" alt="logo" width="60px" id="logo" > 
+                </a>   
+             </div>
+    </header>
+    <aside id="immagine">
+
+    </aside>
+    <b><p class="titoli">Chiedi informazioni</p></b>
+    <p> Compila la scheda oppure chiamaci al numero <a href="#" class="numero">020001122</a></p>
+    <div id="container">
+        <form name="risposta" method="POST" action="messagio-mobile.html">
+            <label for="name" id="name">Nome:</label>
+            <input type="text" name="name" placeholder="Inserisci il tuo nome" required minlength="3"/>
+            <label for="surname" id="surname">Cognome:</label>
+            <input type="text" name="surname" placeholder="Inserisci il tuo cognome" required minlength="3"/>
+            <label for="mail"id="mail">Email:</label>
+            <input type="email" name="mail" placeholder="Inserisci la tua mail" required/>
+            <label for="call" id="call">Telefono:</label>
+            <input type="tell" name="call" placeholder="Inserisci il tuo numero" required />
+ 
+            <label for="messaggio" id="messaggio">Il tuo messaggio:</label>
+            <textarea id="subject" name="messaggio" placeholder="Inserisci il tuo messaggio" required ></textarea>
+           <label id="tos" for="tos">
+           <input type="checkbox" name="tos" required/>
+           Ho preso visione dell'Informativa Privacy
+           </label>
+           <button type="submit">
+           <a href="messagio-mobile.html" target="_blank"> INVIA MODULO </a>
+           </button>
+  
+        </form>
+        
+        <footer>
+            <div>
+                <img src="assets/logo_cut.png" alt="logo">
+            </div>
+            <p class="info">Sede legale: Via Luigi di Savoia 5, Milano 20100 (MI) <br>
+            Email: <a href="#">DidacticGames@mohole.it</a> 
+            </p>
+            
+            <div id="social">
+                <div class="menu_social">
+                    <a href="#" title="facebook" target="blank" >
+                        <span class="fab fa-facebook"></span>
+                    </a>
+                    <a href="#" title="instagram" target="blank" >
+                        <span class="fab fa-instagram"></span>
+                    </a>
+     
+                    <a href="#" title="youtube" target="blank" >
+                        <span class="fab fa-youtube"></span>
+                    </a>
+                </div>           
+            </div>      
+        </footer>
+        
+</div>
+</body>
+</html>
